@@ -1,4 +1,13 @@
-@import "libs/reset.scss";
-@import "libs/variables.scss";
-@import "libs/mixin.scss"; 
+@import "libs/_reset.scss";
+@import "libs/_variables.scss";
+@import "libs/_mixin.scss"; 
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+body {
+    font-family: Jost;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+}
